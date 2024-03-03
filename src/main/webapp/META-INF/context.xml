@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Define your settings here -->
+    <!-- Example: Define a data source -->
+    <Resource name="jdbc/myDataSource" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="root" password="0981"
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/practice"/>
+    <Parameter name="imagePath" value="/path/to/your/images/directory" override="false"/>
+</Context>
